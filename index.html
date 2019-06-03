@@ -9,7 +9,6 @@
 	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 	<script type="text/javascript">
 		$(function(){
-
 			$('.go-to-anchor').live('click', function(evt) {
 				evt.preventDefault();
 				var anchorPosition = $($(this).attr('href')).position().top;
@@ -22,36 +21,6 @@
 			$('.fancybox').fancybox({
 				titlePosition: 'inside'
 			});
-
-			$('#manual').live('click', function(evt) {
-				evt.preventDefault();
-				$.fancybox([
-					'images/manual-00.jpg',
-					'images/manual-01.jpg',
-					'images/manual-02.jpg',
-					'images/manual-04.jpg',
-					'images/manual-05.jpg',
-					'images/manual-06.jpg',
-					'images/manual-07.jpg',
-					'images/manual-08.jpg',
-					'images/manual-09.jpg',
-					'images/manual-10.jpg',
-					'images/manual-11.jpg',
-					'images/manual-12.jpg',
-					'images/manual-13.jpg',
-					'images/manual-14.jpg',
-					'images/manual-15.jpg',
-					'images/manual-16.jpg',
-					'images/manual-17.jpg',
-					'images/manual-18.jpg'
-				], {
-					'padding'			: 0,
-					'transitionIn'		: 'none',
-					'transitionOut'		: 'none',
-					'type'              : 'image',
-					'changeFade'        : 0
-				});
-			});
 		});
 	</script>
 </head>
@@ -62,15 +31,11 @@
 				<a href="#">Portafolio</a>
 				<ul>
 					<li><a class="go-to-anchor" href="#diseno-web">UI/UX</a></li>
-					<li><a class="go-to-anchor" href="#ilustracion">Ilustraci&oacute;n</a></li>
-					<li><a class="go-to-anchor" href="#publicitario">Dise&ntilde;o Publicitario</a></li>
 					<li><a class="go-to-anchor" href="#editorial">Dise&ntilde;o Editorial</a></li>
 					<li><a class="go-to-anchor" href="#corporativa">Imagen Corporativa</a></li>
+					<li><a class="go-to-anchor" href="#ilustracion">Ilustraci&oacute;n</a></li>
 					<li><a class="go-to-anchor" href="#fotografia">Fotograf&iacute;a</a></li>
 				</ul>
-			<li>
-				<a class="manual" id="manual" href="#">Skills</a>
-			</li>
 			<li><a class="fancybox" href="#contacto">Contacto</a></li>
 		</li>
 	</div>
