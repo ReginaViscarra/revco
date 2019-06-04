@@ -98,6 +98,11 @@ html, body {
 	background-color: black;
 }
 
+.corporativa > .image-panel,
+.web > .image-panel {
+	border: solid 1px white;
+}
+
 .ilustracion {
 	background-color: #FF6600;
 }
